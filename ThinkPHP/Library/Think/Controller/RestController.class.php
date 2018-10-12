@@ -21,7 +21,7 @@ class RestController extends Controller
     // 当前请求类型
     protected $_method = '';
     // 当前请求的资源类型
-    protected $_type = '';
+    protected $_type = 'json';
     // REST允许的请求类型列表
     protected $allowMethod = array('get', 'post', 'put', 'delete');
     // REST默认请求类型
